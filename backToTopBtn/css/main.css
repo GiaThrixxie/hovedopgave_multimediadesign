@@ -1,0 +1,34 @@
+  /* ---------- general styling ---------- */
+  html {
+    color: black;
+    font-family: 'Days One', sans-serif;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+    font-weight: 400;
+    overflow: auto;
+    background-color: #29363c;
+  }
+  
+  body {
+    margin: 0;
+    height: 1500px;
+  }
+
+  h1 {
+    color: white;
+  }
+
+#backToTopBtn {
+    display: none; 
+    position: fixed; 
+    height: 100px; 
+    width: 100px;
+    background-color: #ccffff;
+    border-radius: 4px;
+    color: black;
+    font-size: 25px;
+    cursor: pointer;
+    right: 100px;
+    bottom: 100px;
+}
